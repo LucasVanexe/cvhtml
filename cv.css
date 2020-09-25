@@ -1,0 +1,73 @@
+body {
+	margin: 40px;
+}
+
+* {
+	background-color: rgb(230,230,230);
+}
+
+.titre {
+	font-size: 36px;
+	color: rgb(130,130,130) ;
+	font-family: Paper Flowers, sans-serif;
+}
+ol#list
+{
+	list-style-image: url('orange.gif');
+}
+
+
+header > h1 {
+	font-family: Paper Flowers, sans-serif;
+	color: rgb(130,130,130);
+	text-align: left;	
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+section > p {
+	font-family: verdana;
+	margin-left: 20px;
+
+}
+
+a:link, a:visited, a:active{
+		text-decoration: none;
+		color: rgb(130,130,130) ;
+	}
+	a:hover {
+		text-shadow: 1px 1px 5px rgb(265,100,0);
+		color: rgb(265,100,0);
+	}
+
+nav {
+	font-size: 19px;
+		
+}
+
+
+section {
+	font-family: verdana;
+	font-size: 15px;
+}
+
+table {
+	border: 50px;
+	border: rgb(265,100,0);
+	border-collapse: collapse;	
+}
+
+th {
+	padding: 10px 40px 10px 40px;
+}
+
+td {
+	text-align: center;
+}
+
+footer {
+	font-family: verdana;
+	font-size: 12px;
+}
